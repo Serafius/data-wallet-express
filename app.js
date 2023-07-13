@@ -4,6 +4,7 @@ import "dotenv/config";
 
 import { router } from "./routes/index.js";
 import { overrideLogs } from "./utilities/overrideLogs.js";
+import dataWalletDB from "./databases/data-wallet.js"
 
 const app = express();
 const port = process.env.PORT
